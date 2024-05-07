@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonwithpoetryproject"
+version = "0.1.0"
+description = ""
+authors = ["Olena Hrebenshchykova"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+poetry = "^1.8.1"
+selenium = "^4.20.0"
+pytest = "^8.2.0"
+chromedriver = "^2.24.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
