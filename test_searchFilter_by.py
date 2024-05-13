@@ -1,4 +1,3 @@
-
 from selenium import webdriver
 import pytest
 import time
@@ -13,8 +12,6 @@ def test_filter_by_stops():
     time.sleep(10)
 
     filter_by = driver.find_element(By.XPATH, "//input[@name='NUM_OF_STOPS']").click()
-    time.sleep(5)
-
     driver.find_element(By.XPATH, "//*[@stid='FLIGHTS_DETAILS_AND_FARES-index-1-leg-0-fsr-FlightsActionButton']").click()
     time.sleep(5)
 
