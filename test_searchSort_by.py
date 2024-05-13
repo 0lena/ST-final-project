@@ -15,3 +15,4 @@ def test_sort_by_valid_one_way_flight_search():
     dropdownSelect = Select(sort_by)
     dropdownSelect.select_by_index(2)
     time.sleep(5)
+
