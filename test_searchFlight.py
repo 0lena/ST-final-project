@@ -30,12 +30,6 @@ def test_valid_one_way_flight_search():
     going_to.send_keys(Keys.ENTER)
     time.sleep(5)
 
-
-    # driver.find_element(By.XPATH, "//div[@id='FlightSearchForm_ONE_WAY']/div/div[3]/div/div/button").click()
-    # driver.find_element(By.XPATH, "//div[@class='uitk-layout-flex uitk-layout-flex-flex-direction-column']//div[1]//div[1]//div[1]//button[2]").click()
-    # time.sleep(5)
-    # driver.find_element(By.XPATH, "//button[@id='travelers_selector_done_button']").click()
-
     driver.find_element(By.ID, "search_button").click()
     time.sleep(60)
     success_search = driver.find_element(By.XPATH,
